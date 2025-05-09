@@ -1,0 +1,54 @@
+.section__nutrition-title {
+    font-family: var(--ff-preset-2);
+    font-weight: var(--fw-preset-2);
+    font-size: var(--fs-preset-2);
+    line-height: var(--lh-preset-2);
+    color: var(--clr-brown-800);
+    margin: 0 0 var(--sp-24);
+}
+
+.section__nutrition-text {
+    font-family: var(--ff-preset-4);
+    font-weight: var(--fw-preset-4);
+    font-size: var(--fs-preset-4);
+    line-height: var(--lh-preset-4);
+    color: var(--clr-stone-600);
+    margin:  0 0 var(--sp-24);
+}
+
+.section__nutrition-item {
+    border-bottom: 1px solid var(--clr-stone-150);
+    padding-bottom: var(--sp-16);
+    margin-bottom: var(--sp-16);
+}
+
+.section__nutrition-item:last-child {
+    padding-bottom: 0;
+    margin: 0;
+    border: none;
+}
+
+.section__nutrition-item-text {
+    font-family: var(--ff-preset-4);
+    font-weight: var(--fw-preset-4);
+    font-size: var(--fs-preset-4);
+    line-height: var(--lh-preset-4);
+    color: var(--clr-stone-600);
+    padding-left: var(--sp-16);
+    width: 50%;
+}
+
+.section__nutrition-item-text-data {
+    font-family: var(--ff-preset-4-b);
+    font-weight: var(--fw-preset-4-b);
+    font-size: var(--fs-preset-4-b);
+    line-height: var(--lh-preset-4-b);
+    color: var(--clr-brown-800);
+    text-align: left;
+}
+
+.section__nutrition-item {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}

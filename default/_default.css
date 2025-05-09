@@ -1,0 +1,74 @@
+:root {
+    /* Colors */
+    --clr-white: rgb(255, 255, 255);
+
+    --clr-stone-100: rgb(243, 229, 215);
+    --clr-stone-150: rgb(227, 221, 215);
+    --clr-stone-600: rgb(95, 86, 77);
+    --clr-stone-900: rgb(49, 46, 44);
+
+    --clr-brown-800: rgb(133, 70, 50);
+
+    --clr-rose-50: rgb(255, 247, 251);
+    --clr-rose-800: rgb(122, 40, 78);
+
+    /* Font Family */
+    --ff-preset-1: "YoungSerif";
+    --ff-preset-2: "YoungSerir";
+    --ff-preset-3: "Outfit";
+    --ff-preset-4: "Outfit";
+    --ff-preset-4-b: "Outfit";
+
+    /* Font Weight */
+    --fw-preset-1: 400;
+    --fw-preset-2: 400;
+    --fw-preset-3: 600;
+    --fw-preset-4: 400;
+    --fw-preset-4-b: 700;
+
+    /* Font Size */
+    --fs-preset-1: 2.4rem;
+    --fs-preset-2: 1.75rem;
+    --fs-preset-3: 1.25rem;
+    --fs-preset-4: 1rem;
+    --fs-preset-4-b: 1rem;
+
+
+    /* Line Height */
+    --lh-preset-1: 1;
+    --lh-preset-2: 1;
+    --lh-preset-3: 1;
+    --lh-preset-4: 1.5;
+    --lh-preset-4-b: 1.5;
+
+    /* Spacing */
+    --sp-128: 8rem;
+    --sp-48: 3rem;
+    --sp-40: 2.4rem;
+    --sp-32: 2rem;
+    --sp-24: 1.4rem;
+    --sp-16: 1rem;
+    --sp-12: 0.75rem;
+    --sp-8: 0.5rem;
+}
+
+body {
+    background-color: var(--clr-stone-100);
+}
+
+.attribution {
+    font-family: var(--ff-preset-4);
+    font-weight: var(--fw-preset-4);
+    font-size: var(--fs-preset-4);
+    line-height: var(--lh-preset-4);
+    color: var(--clr-stone-600); 
+    text-align: center;
+}
+
+.attribution a {
+    font-family: var(--ff-preset-3);
+    font-weight: var(--fw-preset-3);
+    font-size: var(--fs-preset-3);
+    line-height: var(--lh-preset-3);
+    color: var(--clr-rose-800);
+}

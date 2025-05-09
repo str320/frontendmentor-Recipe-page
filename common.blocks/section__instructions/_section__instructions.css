@@ -1,0 +1,42 @@
+.section__instructions {
+    margin: var(--sp-32) 0 var(--sp-32);
+}
+.section__instructions-title {
+    font-family: var(--ff-preset-2);
+    font-weight: var(--fw-preset-2);
+    font-size: var(--fs-preset-2);
+    line-height: var(--lh-preset-2);
+    color: var(--clr-brown-800);
+    margin: 0 0 var(--sp-24);
+}
+
+.section__instructions-list {
+    padding-left: var(--sp-16);
+    color: var(--clr-brown-800);
+    border-bottom: 1px solid var(--clr-stone-150);
+    padding-bottom: var(--sp-32);
+}
+
+.section__instructions-item {
+    padding-left: var(--sp-16);
+    padding-bottom: var(--sp-8);
+}
+
+.section__instructions-item:last-child {
+    padding-bottom: 0;
+}
+
+.section__instructions-item-text {
+    font-family: var(--ff-preset-4);
+    font-weight: var(--fw-preset-4);
+    font-size: var(--ff-preset-4);
+    line-height: var(--lh-preset-4);
+    color: var(--clr-stone-600);
+}
+
+.section__instructions-item-text--bold {
+    font-family: var(--ff-preset-4-b);
+    font-weight: var(--fw-preset-4-b);
+    font-size: var(--ff-preset-4-b);
+    line-height: var(--lh-preset-4-b);
+}

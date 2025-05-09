@@ -1,0 +1,36 @@
+.section__ingredients {
+    padding-bottom: var(--sp-32);
+    border-bottom: 1px solid var(--clr-stone-150);
+
+}
+
+.section__ingredients-title {
+    font-family: var(--ff-preset-2);
+    font-weight: var(--fw-preset-2);
+    font-size: var(--fs-preset-2);
+    line-height: var(--lh-preset-2);
+    color: var(--clr-brown-800);
+    margin: 0 0 var(--sp-24);
+}
+
+.section__ingredients-list {
+    color: var(--clr-brown-800);
+    padding-left: var(--sp-16);
+}
+
+.section__ingredients-item {
+    padding-left: var(--sp-16);
+    margin-bottom: var(--sp-8);
+}
+
+.section__ingredients-item:last-child {
+    margin-bottom: 0;
+}
+
+.section__ingredients-item-text {
+    font-family: var(--ff-preset-4);
+    font-weight: var(--fw-preset-4);
+    font-size: var(--fs-preset-4);
+    line-height: var(--lh-preset-4);
+    color: var(--clr-stone-600);
+}

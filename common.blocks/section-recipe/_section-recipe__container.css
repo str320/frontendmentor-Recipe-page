@@ -1,0 +1,31 @@
+.section-recipe__container {
+    background-color: var(--clr-white);
+    border-radius: 1.5rem;
+    padding: var(--sp-40);
+    max-width: 46rem;
+    margin:  8rem auto;
+}
+
+.section-recipe__header-image {
+    border-radius: 1.5rem;
+    margin: 0 0 var(--sp-40);
+}
+
+.section-recipe__header-title {
+    font-family: var(--ff-preset-1);
+    font-weight: var(--fw-preset-1);
+    font-size: var(--fs-preset-1);
+    line-height: var(--lh-preset-1);
+    color: var(--clr-stone-900);
+    margin: 0 0 var(--sp-24);
+
+}
+
+.section-recipe__header-text {
+    font-family: var(--ff-preset-4);
+    font-weight: var(--fw-preset-4);
+    font-size: var(--fs-preset-4);
+    line-height: var(--lh-preset-4);
+    color: var(--clr-stone-600);
+    margin: 0 0 var(--sp-32);
+}

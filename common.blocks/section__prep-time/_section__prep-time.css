@@ -1,0 +1,43 @@
+.section__prep-time {
+    background-color: var(--clr-rose-50);
+    padding: var(--sp-24);
+    margin: 0 0 var(--sp-32);
+}
+
+.section__prep-time-title {
+    font-family: var(--ff-preset-3);
+    font-weight: var(--fw-preset-3);
+    font-size: var(--fs-preset-3);
+    line-height: var(--lh-preset-3);
+    color: var(--clr-rose-800);
+    margin: 0 0 var(--sp-16);
+}
+
+.section__prep-time-list {
+    color: var(--clr-rose-800);
+    padding: 0 var(--sp-24);
+}
+
+.section__prep-time-item {
+    padding-left: var(--sp-16);
+    padding-bottom: var(--sp-8);
+}
+
+.section__prep-time-item:last-child {
+    padding-bottom: 0;
+}
+
+.section__prep-time-item-text {
+    font-family: var(--ff-preset-4);
+    font-weight: var(--fw-preset-4);
+    font-size: var(--fs-preset-4);
+    line-height: var(--lh-preset-4);
+    color: var(--clr-stone-600); 
+}
+
+.section__prep-time-item-text--bold {
+    font-family: var(--ff-preset-4-b);
+    font-weight: var(--fw-preset-4-b);
+    font-size: var(--ff-preset-4-b);
+    line-height: var(--lh-preset-4-b);
+}
