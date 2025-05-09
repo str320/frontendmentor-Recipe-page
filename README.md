@@ -36,7 +36,7 @@ BEM Methodology
 
 💡 What I Learned
 
-Structuring content using <section>, <header>, <ol>, and <dl> for better semantics.
+Structuring content using `<section>, <header>, <ol>, and <dl>` for better semantics.
 
 Implementing BEM methodology for scalable CSS architecture.
 
