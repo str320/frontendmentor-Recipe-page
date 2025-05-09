@@ -25,13 +25,7 @@ Integrated utility-first CSS for quick and efficient styling.
 
 Semantic HTML5
 
-Tailwind CSS
-
-Vite.js
-
 BEM Methodology
-
-
 
 
 💡 What I Learned
